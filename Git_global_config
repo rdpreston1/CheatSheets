@@ -1,0 +1,14 @@
+git config --global user.name = "user"
+git config --global user.email = "email"
+git config --global color.ui = auto
+git config --global credential.helper wincred
+git config --global core.editor "vim"
+
+Defining an alias:
+[alias]
+    st = status
+    ci = commit -v
+We can use the git config alias command:
+
+$ git config --global alias.st status 
+$ git config --global alias.ci 'commit -v'
